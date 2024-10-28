@@ -61,9 +61,9 @@ class Plane:
         print("Object has been destroyed.")
 
 def main():
-    plane1 = Plane("Vasya", 12, 200, 958425, "Kyiv", 100)
+    plane1 = Plane("AH-210", 12, 200, 958425, "Kyiv", 100)
     plane2 = Plane("Hmara", 25, 222, 654523, "Lviv", 200)
-    plane3 = Plane("Vverh", 65, 233, 789654, "Poltava", 300)
+    plane3 = Plane("Condor", 65, 233, 789654, "Poltava", 300)
 
     plane1.set_total_flights(200)
     plane2.set_total_flights(300)
